@@ -9,8 +9,8 @@ const cartVariants = cva(
   {
     variants: {
       variant: {
-        cart: "border border-gray-300 text-gray-700 bg-transparent", 
-        largeBorder: "border-4 border-gray-500 text-gray-700 bg-transparent",
+        cart: "border border-gray-200  bg-transparent", 
+        largeBorder: "border-4 border-gray-200  bg-transparent",
       },
     },
     defaultVariants: {

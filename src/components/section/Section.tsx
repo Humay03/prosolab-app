@@ -9,8 +9,8 @@ type SectionProps = {
 export default function Section({ header, className, children }: SectionProps) {
     return (
         <section className={`container mx-auto ${className}`}>
-            {header && <div>{header}</div>}
-            <div className={className}>
+            {header && <div className={`${className}`}>{header}</div>}
+            <div>
                 {children}
             </div>
         </section>

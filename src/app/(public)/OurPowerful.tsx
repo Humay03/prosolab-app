@@ -32,13 +32,12 @@ export default function OurPowerful() {
                 <Section
                     header={
                         <div className='flex flex-col items-center justify-center mb-[20px] h-[30dvh]'>
-                            <h2 className=" text-[36px] mb-[10px] font-medium">
+                            <h2 className=" text-[40px] mb-[10px] font-medium">
                                 Explore Our Powerful  <LineGradient fromColor='#2E90FA' middleColor='#7c8ced' variant='text'>  Digital Solution</LineGradient>
                             </h2>
                             <p className='text-center w-[660px]'>Our products are built to boost efficiency and innovation, delivering modern web and mobile solutions for growing businesses.</p>
                         </div>
                     }
-                    className='h-[100dvh]'
                 >
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 ">
                         {cardData.map((card, index) => (
