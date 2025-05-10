@@ -1,12 +1,10 @@
+'use client'
 import CartComponent from '@/components/cartcomponent/CartComponent'
 import Container from '@/components/container/Container'
 import LineGradient from '@/components/linegradient/LineGradient'
 import Section from '@/components/section/Section'
-import { AppWindow, Bot, FolderCode, Laptop, PanelsTopLeft, Smartphone } from 'lucide-react'
+import { AppWindow, Bot, FolderCode, Laptop, PanelsTopLeft, Smartphone, Tag } from 'lucide-react'
 import React from 'react'
-
-
-
 
 const expertServices = [
     {
@@ -43,9 +41,9 @@ const expertServices = [
 
 export default function OurExpertServices() {
     return (
-        <section className='py-10'>
-            <Container >
-                <Section
+        <section className='py-10 '>
+            <Container className='flex justify-center items-center'>
+                <Section as="article"
                     header={
                         <div className='flex flex-col items-center justify-center text-center h-[30dvh] mb-[40px]'>
                             <h2 className=" text-[40px] font-medium mb-[10px] w-[600px]">

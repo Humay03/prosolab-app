@@ -1,3 +1,5 @@
+
+'use client'
 import Container from '@/components/container/Container'
 import LineGradient from '@/components/linegradient/LineGradient'
 import Section from '@/components/section/Section'
@@ -28,7 +30,7 @@ export default function OurPerformance() {
     return (
         <section className='py-10'>
             <Container>
-                <Section
+                <Section as="article"
                     header={
                         <div className='flex items-center justify-center h-[20dvh]'>
                             <h2 className=" text-[40px] font-medium">
@@ -36,7 +38,6 @@ export default function OurPerformance() {
                             </h2>
                         </div>
                     }
-                    className=''
                 >
                     <div className='grid grid-cols-3 gap-10 justify-items-center'>
                         {performanceList.map((item, index) => (
